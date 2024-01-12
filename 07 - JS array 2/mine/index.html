@@ -37,9 +37,9 @@
 
       console.log(somePeople);
 
-      const everyPerson = people.every(({ year }) => {
-        return now.getFullYear() - year >= 19;
-      });
+      const everyPerson = people.every(
+        ({ year }) => now.getFullYear() - year >= 19
+      );
 
       console.log(everyPerson);
 
